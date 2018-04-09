@@ -51,20 +51,7 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides w3-display-container w3-center">
     <img src="IMG_8684.JPG" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <div class="mySlides w3-display-container w3-center">
-    <img src="IMG_9022.JPG" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <div class="mySlides w3-display-container w3-center">
-    <img src="IMG_9093.JPG" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <div class="mySlides w3-display-container w3-center">
-    <img src="IMG_9195.JPG" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <div class="mySlides w3-display-container w3-center">
-    <img src="IMG_9265.JPG" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-     
-    </div>
+     </div>
   </div>
 
   <!-- Design by Kaylee Montgomery section -->
@@ -72,6 +59,88 @@ body {font-family: "Lato", sans-serif}
     <h2 class="w3-wide">DESIGN BY KAYLEE MONTGOMERY</h2>
     <p class="w3-opacity"><i>I love photography and graphic design</i></p>
     <p class="w3-justify">I am currently a student at Graceland University with the majors of Graphic Design and Social Media Marketing. I have always had a passion for art since I was a little girl and began to learn about photography and graphic design when I started on the yearbook staff during my freshman year in high school. This website is where I will share my photography and design projects. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="IMG_0534.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Kaylee Montgomery</p>
+        <img src="IMG_0529.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="IMG_0537.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+   <!-- Photography & Design Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PHOTOGRAPHY & DESIGN</h2>
+      <p class="w3-opacity w3-center"><i>Check out my work!</i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="IMG_9195.jpg" alt="GU Softball" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>GU Softball</b></p>
+            <p class="w3-opacity">@ William Penn</p>
+            <p>Camryn Kuehl</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="IMG_9093.jpg" alt="Doty" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>GU Men's Basketball</b></p>
+            <p class="w3-opacity">Lamoni</p>
+            <p>Coach Craig Doty</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="IMG_0482.jpg" alt="Valentine's Day" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Valentine's Day</b></p>
+            <p class="w3-opacity"></p>
+            <p>Kishon Ho Chee</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="IMG_9216.jpg" alt="GU Baseball" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>GU Baseball</b></p>
+            <p class="w3-opacity">Lamoni</p>
+            <p>Marlon Griffin</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="IMG_9731.jpg" alt="Intercultural Night" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Intercultural Night</b></p>
+            <p class="w3-opacity">Lamoni</p>
+            <p>Gnalu and Kimo</p>
+          </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
 
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
